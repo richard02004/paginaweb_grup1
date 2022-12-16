@@ -1,0 +1,122 @@
+.navlogo {
+    padding-left: 0%;
+    font-size: 500%;
+    background-color: rgb(195, 236, 226);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.titol {
+    padding-left: 20%;
+    margin-bottom: 0%;
+}
+
+.d-inline-block {
+    height: 30%;
+    width: 30%;
+}
+
+.nav {
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background-color: rgb(195, 236, 226);
+
+}
+
+.nav-item {
+    margin-left: 20%;
+}
+
+.fondo {
+    background-color: rgb(229, 226, 226);
+}
+
+body {
+    background-color: rgb(229, 226, 226);
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #255627;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    background-color: #255627;
+    margin-bottom: 5%;
+}
+
+.formulari {
+    padding: 20px;
+}
+
+.footergran {
+    margin-top: -5%;
+    background-color: rgb(241, 190, 112);
+}
+
+.footer {
+    margin-bottom: 2%;
+}
+
+.insta {
+    margin-left: 90%;
+    margin-top: -2.5%;
+}
+
+@media screen and (max-width: 600px) {
+    .navlogo {
+        padding-left: 0%;
+        font-size: 300%;
+        background-color: rgb(195, 236, 226);
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        padding-right: 70%;
+    }
+    .titol {
+        font-size: 54%;
+    }
+    .nav {
+        flex-direction: column;
+        font-size: 80%;
+    }
+    .bio {
+        font-size: 80%;
+    }
+    .d-inline-block {
+        width: 150%;
+    }
+    .d-block {
+        height: 50%;
+        width: 50%;
+    }
+    .insta {
+        margin-left: 30%;
+    }
+}
