@@ -1,6 +1,6 @@
 <?php
 
-$to ="richardroiget@iesmontsia.org";
+$to ="ajr@gayaclothes.cat";
 
 
 $nom=$_POST['firstname'];
@@ -31,14 +31,14 @@ MAIL;
 // use wordwrap() if lines are longer than 70 characters
 $msg = wordwrap($msg,70);
 
-$headers = "From: agustiarasa@iesmontsia.org" . "\r\n";
+$headers = "From: ajr@gayaclothes.cat" . "\r\n";
 $headers .= "CC: $email" . "\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8" . "\r\n";
 
 // send email
 mail($to,$subject,$msg,$headers);
 
-header('Location: formulari2.html');
+header('Location: Contancte.html');
 echo <<<HTML
 <html>
 <body>
