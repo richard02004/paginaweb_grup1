@@ -48,15 +48,15 @@ body{
     background-color: rgb(229, 226, 226);
 }
 .footergran{
-    margin-top: -3%;
+    margin-top: -1%;
     background-color: rgb(241, 190, 112);
 }
 .footer{
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 }
 .insta{
     margin-left: 90%;
-    margin-top: -6.5%;
+    margin-top: -2.5%;
 }
 @media screen and (max-width: 600px){
     .navlogo{
@@ -72,10 +72,10 @@ body{
     }
     .nav{
         flex-direction: column;
-        font-size: 60%;
+        font-size: 80%;
     }
     .bio{
-        font-size: 50%;
+        font-size: 80%;
     }
     .gorra1{
         height: 60%;

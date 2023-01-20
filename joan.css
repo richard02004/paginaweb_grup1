@@ -1,0 +1,135 @@
+.navlogo {
+    padding-left: 0%;
+    font-size: 500%;
+    background-color: rgb(195, 236, 226);     
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.titol {
+    padding-left: 20%;
+    margin-bottom: 0%;
+}
+.d-inline-block {
+    height: 30%;
+    width: 30%;
+}
+.nav {
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background-color: rgb(195, 236, 226);
+
+}    
+.nav-item {
+    margin-left: 20%;
+}
+.bio {
+    font-size: 120%;
+    text-align: left;
+    padding-top: 3.5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: rgb(229, 226, 226);
+    padding-bottom: 1%;
+}
+.carousel-item {
+    padding-bottom: 5%;
+    background-color:rgb(229, 226, 226);
+}
+body {
+    background-color: rgb(229, 226, 226);
+}
+.footergran {
+    margin-top: -1%;
+    background-color: rgb(241, 190, 112);
+
+}
+.footer {
+    margin-bottom: 2%;
+}
+.insta {
+    margin-left: 90%;
+    margin-top: -2.5%;
+}
+
+
+.camiseta1 {
+    width: 40%;
+    height: 40%;
+    /*margin: 10%;*/
+    padding-left: 5%;
+    margin-top: 2%;
+    margin-left: 5%;
+
+}
+
+.camiseta2 {
+    width: 45%;
+    height: 45%;
+    margin-left: 3%;
+    padding-left: 10%;
+    margin-top: 2%;
+}
+
+.camiseta3 {
+    width: 35%;
+    height: 35%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.camiseta4 {
+    width: 38%;
+    height: 38%;
+    margin-top: 2%;
+    margin-left: 10%;
+    padding-left: 3%;
+}
+
+.fondocamisetes {
+    background-color: rgb(148, 147, 147)
+
+}
+
+#camisetes {
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fondooo {
+    background-color: rgb(229, 226, 226);
+    margin-top: -30px;
+}
+
+@media screen and (max-width: 600px){
+    .navlogo {
+        padding-left: 0%;
+        font-size: 300%;
+        background-color: rgb(195, 236, 226);     
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        padding-right: 70%;
+    }
+    .titol {
+        font-size: 54%;
+    }
+    .nav {
+        flex-direction: column;
+        font-size: 60%;
+    }
+    .bio {
+        font-size: 50%;
+        background-color: red;
+    }
+    .d-inline-block{
+        width: 150%;
+    }
+    .d-block {
+        height: 50%;
+        width: 50%;
+    }
+    .insta {
+        margin-left: 30%;
+    }
+    }
